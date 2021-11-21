@@ -18718,55 +18718,55 @@ void Motor_Init(void){
  8005d20:	b590      	push	{r4, r7, lr}
  8005d22:	b083      	sub	sp, #12
  8005d24:	af00      	add	r7, sp, #0
-	m[0].EN = 1;	//M1 Вкл/ОТКЛ
+	m[0].EN = 1;	//M1 1- ON/0 - OFF
  8005d26:	4b60      	ldr	r3, [pc, #384]	; (8005ea8 <Motor_Init+0x188>)
  8005d28:	2201      	movs	r2, #1
  8005d2a:	701a      	strb	r2, [r3, #0]
-	m[1].EN = 1;	//M2 Вкл/ОТКЛ
+	m[1].EN = 1;	//M2 1- ON/0 - OFF
  8005d2c:	4b5e      	ldr	r3, [pc, #376]	; (8005ea8 <Motor_Init+0x188>)
  8005d2e:	2201      	movs	r2, #1
  8005d30:	749a      	strb	r2, [r3, #18]
-	m[2].EN = 1;	//M3 Вкл/ОТКЛ
+	m[2].EN = 1;	//M3 1- ON/0 - OFF
  8005d32:	4b5d      	ldr	r3, [pc, #372]	; (8005ea8 <Motor_Init+0x188>)
  8005d34:	2224      	movs	r2, #36	; 0x24
  8005d36:	2101      	movs	r1, #1
  8005d38:	5499      	strb	r1, [r3, r2]
-	m[3].EN = 1;	//M4 Вкл/ОТКЛ
+	m[3].EN = 1;	//M4 1- ON/0 - OFF
  8005d3a:	4b5b      	ldr	r3, [pc, #364]	; (8005ea8 <Motor_Init+0x188>)
  8005d3c:	2236      	movs	r2, #54	; 0x36
  8005d3e:	2101      	movs	r1, #1
  8005d40:	5499      	strb	r1, [r3, r2]
-	m[4].EN = 1;	//M5 Вкл/ОТКЛ
+	m[4].EN = 1;	//M5 1- ON/0 - OFF
  8005d42:	4b59      	ldr	r3, [pc, #356]	; (8005ea8 <Motor_Init+0x188>)
  8005d44:	2248      	movs	r2, #72	; 0x48
  8005d46:	2101      	movs	r1, #1
  8005d48:	5499      	strb	r1, [r3, r2]
-	m[5].EN = 1;	//M6 Вкл/ОТКЛ
+	m[5].EN = 1;	//M6 1- ON/0 - OFF
  8005d4a:	4b57      	ldr	r3, [pc, #348]	; (8005ea8 <Motor_Init+0x188>)
  8005d4c:	225a      	movs	r2, #90	; 0x5a
  8005d4e:	2101      	movs	r1, #1
  8005d50:	5499      	strb	r1, [r3, r2]
-	m[6].EN = 1;	//M7 Вкл/ОТКЛ
+	m[6].EN = 1;	//M7 1- ON/0 - OFF
  8005d52:	4b55      	ldr	r3, [pc, #340]	; (8005ea8 <Motor_Init+0x188>)
  8005d54:	226c      	movs	r2, #108	; 0x6c
  8005d56:	2101      	movs	r1, #1
  8005d58:	5499      	strb	r1, [r3, r2]
-	m[7].EN = 1;	//M8 Вкл/ОТКЛ
+	m[7].EN = 1;	//M8 1- ON/0 - OFF
  8005d5a:	4b53      	ldr	r3, [pc, #332]	; (8005ea8 <Motor_Init+0x188>)
  8005d5c:	227e      	movs	r2, #126	; 0x7e
  8005d5e:	2101      	movs	r1, #1
  8005d60:	5499      	strb	r1, [r3, r2]
 
-	m[0].perMaxPWM = 500;		//Максимальная скорость привода в % х10
+	m[0].perMaxPWM = 500;		//Maximum drive speed in % x10
  8005d62:	4b51      	ldr	r3, [pc, #324]	; (8005ea8 <Motor_Init+0x188>)
  8005d64:	22fa      	movs	r2, #250	; 0xfa
  8005d66:	0052      	lsls	r2, r2, #1
  8005d68:	80da      	strh	r2, [r3, #6]
-	m[0].perStartPWM = 100;		//Скорость в % х10, с которой начинается разгон привода
+	m[0].perStartPWM = 100;		//The speed in % x10 at which the acceleration of the drive begins
  8005d6a:	4b4f      	ldr	r3, [pc, #316]	; (8005ea8 <Motor_Init+0x188>)
  8005d6c:	2264      	movs	r2, #100	; 0x64
  8005d6e:	809a      	strh	r2, [r3, #4]
-	m[0].tAcceleration = 200;	//Время разгона (в шагах)
+	m[0].tAcceleration = 200;	//Acceleration duration (in steps)
  8005d70:	4b4d      	ldr	r3, [pc, #308]	; (8005ea8 <Motor_Init+0x188>)
  8005d72:	22c8      	movs	r2, #200	; 0xc8
  8005d74:	805a      	strh	r2, [r3, #2]
@@ -20475,7 +20475,7 @@ int main (void) {
  8006858:	b580      	push	{r7, lr}
  800685a:	b082      	sub	sp, #8
  800685c:	af02      	add	r7, sp, #8
-	//SystemInit();  // Фукнция CMSIS которая установит тактовую частоту
+	//SystemInit();  // CMSS function that set the clock frequency
 
 	// По умолчанию считает, что внешний кварц 8МГЦ, но можно добавить
 	// в stm32f1xx.h #define HSE_VALUE 12000000U и переназначить кварц.
@@ -20565,7 +20565,7 @@ void vTask_MAIN (void *argument){
 //===================================================================
 //-------------   Main program   -----------------------------------
 //===================================================================
-//Программа управления фигурой
+//Figure management program
 
 		if ((GPIOB->IDR & GPIO_IDR_9) == 0 ) {
  80068f4:	4b39      	ldr	r3, [pc, #228]	; (80069dc <vTask_MAIN+0xf0>)
@@ -20710,7 +20710,7 @@ void vTask_MAIN (void *argument){
 	}
 }
 //------------------------------------------------------------------------
-//------------   Управление разгоном и торможением двигателей   ----------
+//----------   Engine acceleration and braking control   -----------------
 //------------------------------------------------------------------------
 void vTask_CONTR (void *argument){
  80069e4:	b5b0      	push	{r4, r5, r7, lr}
@@ -21463,7 +21463,7 @@ void vTask_CONTR (void *argument){
 
 
 
-		vTaskDelay(10);
+		vTaskDelay(TIME_STEP);
  8006f04:	200a      	movs	r0, #10
  8006f06:	f7fc fd75 	bl	80039f4 <vTaskDelay>
 		for (uint8_t i = 0; i < NUMBER_OF_MOTOR; i++) {
@@ -21474,9 +21474,9 @@ void vTask_CONTR (void *argument){
 
 08006f18 <delay>:
 }
-
-//--------------------   Функция задержки на этапе инициализации   -----------------------
-
+//------------------------------------------------------------------------
+//---------   Delay function at the initialization stage   ---------------
+//------------------------------------------------------------------------
 void delay(uint32_t ms)
 {
  8006f18:	b580      	push	{r7, lr}

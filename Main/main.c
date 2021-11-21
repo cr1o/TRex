@@ -180,13 +180,7 @@ void vTask_CONTR (void *argument){
 		} else {
 			GPIOB->BSRR |= GPIO_BSRR_BR_11;
 		}
-
-
-
-		vTaskDelay(10);
-
-
-
+		vTaskDelay(TIME_STEP);
 	}
 }
 //------------------------------------------------------------------------
