@@ -17,14 +17,14 @@
 typedef struct {
 	uint8_t EN;
 	uint8_t Start;
-	uint16_t tAcceleration;		// оличество шагов разгона. Ўаг 10мс
-	uint16_t perStartPWM;		//%от максимального количества оборотов с которого начинаетс€ разгон
-	uint16_t perMaxPWM;			//«аданна€ скорость. (% от максимальных оборотов)
-	uint16_t StepSize;			//–ассчетный размер шага
+	uint16_t tAcceleration;		//The number of overclocking steps. Step 10ms
+	uint16_t perStartPWM;		//% of the maximum number of engine revolutions from which acceleration begins
+	uint16_t perMaxPWM;			//Set speed. (% of maximum revolutions)
+	uint16_t StepSize;			//Estimated step size
 
-	uint16_t StepSizeF;			//–ассчетный размер шага
+	uint16_t StepSizeF;			//Estimated step size
 
-	uint16_t curStep;			//“екущий шаг разгона/торможени€
+	uint16_t curStep;			//Current acceleration/deceleration step
 	uint16_t M_EN;
 	uint16_t M_PWM;
 } motor;

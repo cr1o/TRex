@@ -7,18 +7,18 @@
 //---------------------------   Motor_Init   ------------------------------
 //------------------------------------------------------------------------
 void Motor_Init(void){
-	m[0].EN = 1;	//M1 Вкл/ОТКЛ
-	m[1].EN = 1;	//M2 Вкл/ОТКЛ
-	m[2].EN = 1;	//M3 Вкл/ОТКЛ
-	m[3].EN = 1;	//M4 Вкл/ОТКЛ
-	m[4].EN = 1;	//M5 Вкл/ОТКЛ
-	m[5].EN = 1;	//M6 Вкл/ОТКЛ
-	m[6].EN = 1;	//M7 Вкл/ОТКЛ
-	m[7].EN = 1;	//M8 Вкл/ОТКЛ
+	m[0].EN = 1;	//M1 1- ON/0 - OFF
+	m[1].EN = 1;	//M2 1- ON/0 - OFF
+	m[2].EN = 1;	//M3 1- ON/0 - OFF
+	m[3].EN = 1;	//M4 1- ON/0 - OFF
+	m[4].EN = 1;	//M5 1- ON/0 - OFF
+	m[5].EN = 1;	//M6 1- ON/0 - OFF
+	m[6].EN = 1;	//M7 1- ON/0 - OFF
+	m[7].EN = 1;	//M8 1- ON/0 - OFF
 
-	m[0].perMaxPWM = 500;		//Максимальная скорость привода в % х10
-	m[0].perStartPWM = 100;		//Скорость в % х10, с которой начинается разгон привода
-	m[0].tAcceleration = 200;	//Время разгона (в шагах)
+	m[0].perMaxPWM = 500;		//Maximum drive speed in % x10
+	m[0].perStartPWM = 100;		//The speed in % x10 at which the acceleration of the drive begins
+	m[0].tAcceleration = 200;	//Acceleration duration (in steps)
 
 	m[1].perMaxPWM = 1000;
 	m[1].perStartPWM = 100;
