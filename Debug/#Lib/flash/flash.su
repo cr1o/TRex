@@ -1,0 +1,6 @@
+flash.c:9:10:flash_read	16	static
+flash.c:15:6:flash_unlock	8	static
+flash.c:21:6:flash_lock	8	static
+flash.c:26:9:flash_ready	8	static
+flash.c:33:6:flash_erase_page	16	static
+flash.c:48:6:flash_write	16	static

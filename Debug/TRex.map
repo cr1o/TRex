@@ -1,0 +1,1215 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
+                              Startup\startup_stm32f051x8.o (__libc_init_array)
+c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
+                              FreeRTOS\queue.o (memcpy)
+c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-memset.o)
+                              FreeRTOS\stream_buffer.o (memset)
+c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_udivsi3.o)
+                              CMSIS\system_stm32f0xx.o (__aeabi_uidiv)
+c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_divsi3.o)
+                              GPIO\GPIO.o (__aeabi_idiv)
+c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Allocating common symbols
+Common symbol       size              file
+
+xQueueRegistry      0x40              FreeRTOS\queue.o
+mp3_RXc             0x1               DFPlayer\DFPlayer.o
+m                   0x90              GPIO\GPIO.o
+mp3_RXi             0x1               DFPlayer\DFPlayer.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00010000         xr
+RAM              0x20000000         0x00002000         xrw
+MEMORY_B1        0x60000000         0x00000000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crti.o
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtbegin.o
+LOAD #Lib\ADC\ADC.o
+LOAD #Lib\LCD\lcd.o
+LOAD #Lib\RCC\RCC.o
+LOAD #Lib\flash\flash.o
+LOAD .metadata\.plugins\org.eclipse.cdt.make.core\specs.o
+LOAD ADC\ADC.o
+LOAD CMSIS\system_stm32f0xx.o
+LOAD DFPlayer\DFPlayer.o
+LOAD FreeRTOS\croutine.o
+LOAD FreeRTOS\event_groups.o
+LOAD FreeRTOS\heap_1.o
+LOAD FreeRTOS\list.o
+LOAD FreeRTOS\port.o
+LOAD FreeRTOS\queue.o
+LOAD FreeRTOS\stream_buffer.o
+LOAD FreeRTOS\tasks.o
+LOAD FreeRTOS\timers.o
+LOAD GPIO\GPIO.o
+LOAD Main\main.o
+LOAD Startup\startup_stm32f051x8.o
+LOAD UART\UART.o
+                0x00000080                malloc_getpagesize_P = 0x80
+START GROUP
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libm.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libnosys.a
+END GROUP
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtend.o
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtn.o
+                0x20002000                _estack = 0x20002000
+                0x00000000                _Min_Heap_Size = 0x0
+                0x00000080                _Min_Stack_Size = 0x80
+
+.isr_vector     0x08000000       0xc0
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000       0xc0 Startup\startup_stm32f051x8.o
+                0x08000000                g_pfnVectors
+                0x080000c0                . = ALIGN (0x4)
+
+.text           0x080000c0     0x73f0
+                0x080000c0                . = ALIGN (0x4)
+ *(.text)
+ .text          0x080000c0        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crti.o
+ .text          0x080000c0       0x48 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtbegin.o
+ .text          0x08000108       0xc4 #Lib\ADC\ADC.o
+                0x08000108                ADC_Init
+ .text          0x080001cc      0x7dc #Lib\LCD\lcd.o
+                0x080001cc                delay_us
+                0x080001fa                LCD_Command
+                0x0800039c                LCD_WriteData
+                0x08000540                LCD_Init
+                0x080005d8                LCD_Clear
+                0x080005f2                LCD_SetPos
+                0x080006a6                LCD_SendChar
+                0x080006ca                LCD_Print
+                0x0800071a                LCD_SetTCur
+                0x08000790                LCD_SetLight
+                0x080007b0                LCD_PrintASCII
+                0x08000890                LCD_Print80
+ .text          0x080009a8        0x0 #Lib\RCC\RCC.o
+ .text          0x080009a8      0x120 #Lib\flash\flash.o
+                0x080009a8                flash_read
+                0x080009bc                flash_unlock
+                0x080009e0                flash_lock
+                0x080009fc                flash_ready
+                0x08000a18                flash_erase_page
+                0x08000a60                flash_write
+ .text          0x08000ac8        0x0 .metadata\.plugins\org.eclipse.cdt.make.core\specs.o
+ .text          0x08000ac8        0x0 ADC\ADC.o
+ .text          0x08000ac8       0xe0 CMSIS\system_stm32f0xx.o
+                0x08000ac8                SystemInit
+                0x08000ad2                SystemCoreClockUpdate
+ .text          0x08000ba8      0x330 DFPlayer\DFPlayer.o
+                0x08000bdc                MP3_Init
+                0x08000cd8                MP3_CheckSum
+                0x08000d28                MP3_SendCmd
+                0x08000dcc                MP3_SetFolder
+                0x08000dec                MP3_ClearRXBuffer
+                0x08000e34                USART2_IRQHandler
+ .text          0x08000ed8        0x0 FreeRTOS\croutine.o
+ .text          0x08000ed8      0x50e FreeRTOS\event_groups.o
+                0x08000ed8                xEventGroupCreate
+                0x08000f08                xEventGroupSync
+                0x08001024                xEventGroupWaitBits
+                0x08001170                xEventGroupClearBits
+                0x080011ba                xEventGroupGetBitsFromISR
+                0x080011e6                xEventGroupSetBits
+                0x080012d8                vEventGroupDelete
+                0x0800132c                vEventGroupSetBitsCallback
+                0x0800134a                vEventGroupClearBitsCallback
+                0x080013a6                uxEventGroupGetNumber
+                0x080013ce                vEventGroupSetNumber
+ *fill*         0x080013e6        0x2 
+ .text          0x080013e8       0xe0 FreeRTOS\heap_1.o
+                0x080013e8                pvPortMalloc
+                0x0800147c                vPortFree
+                0x08001496                vPortInitialiseBlocks
+                0x080014ac                xPortGetFreeHeapSize
+ .text          0x080014c8      0x152 FreeRTOS\list.o
+                0x080014c8                vListInitialise
+                0x08001504                vListInitialiseItem
+                0x0800151a                vListInsertEnd
+                0x0800155e                vListInsert
+                0x080015ca                uxListRemove
+ *fill*         0x0800161a        0x6 
+ .text          0x08001620      0x26c FreeRTOS\port.o
+                0x08001620                pxPortInitialiseStack
+                0x080016a0                vPortSVCHandler
+                0x080016d6                xPortStartScheduler
+                0x0800171c                vPortEndScheduler
+                0x0800173c                vPortYield
+                0x0800175c                vPortEnterCritical
+                0x08001780                vPortExitCritical
+                0x080017b0                ulSetInterruptMaskFromISR
+                0x080017bc                vClearInterruptMaskFromISR
+                0x080017c4                PendSV_Handler
+                0x08001816                SysTick_Handler
+                0x08001848                vPortSetupTimerInterrupt
+ .text          0x0800188c     0x1318 FreeRTOS\queue.o
+                0x0800188c                xQueueGenericReset
+                0x08001934                xQueueGenericCreate
+                0x08001a18                xQueueCreateMutex
+                0x08001a50                xQueueGiveMutexRecursive
+                0x08001aa6                xQueueTakeMutexRecursive
+                0x08001b06                xQueueCreateCountingSemaphore
+                0x08001b4c                xQueueGenericSend
+                0x08001d02                xQueueGenericSendFromISR
+                0x08001e1a                xQueueGiveFromISR
+                0x08001f08                xQueueReceive
+                0x08002072                xQueueSemaphoreTake
+                0x08002226                xQueuePeek
+                0x08002394                xQueueReceiveFromISR
+                0x0800245c                xQueuePeekFromISR
+                0x080024e0                uxQueueMessagesWaiting
+                0x0800250a                uxQueueSpacesAvailable
+                0x0800253e                uxQueueMessagesWaitingFromISR
+                0x08002564                vQueueDelete
+                0x08002592                uxQueueGetQueueNumber
+                0x080025a6                vQueueSetQueueNumber
+                0x080025be                ucQueueGetQueueType
+                0x08002828                xQueueIsQueueEmptyFromISR
+                0x0800288a                xQueueIsQueueFullFromISR
+                0x080028c0                vQueueAddToRegistry
+                0x08002910                pcQueueGetName
+                0x0800295c                vQueueUnregisterQueue
+                0x080029b0                vQueueWaitForMessageRestricted
+                0x08002a16                xQueueCreateSet
+                0x08002a38                xQueueAddToSet
+                0x08002a7a                xQueueRemoveFromSet
+                0x08002ac2                xQueueSelectFromSet
+                0x08002ae8                xQueueSelectFromSetFromISR
+ .text          0x08002ba4      0xa5c FreeRTOS\stream_buffer.o
+                0x08002ba4                xStreamBufferGenericCreate
+                0x08002c2e                vStreamBufferDelete
+                0x08002c6e                xStreamBufferReset
+                0x08002cd4                xStreamBufferSetTriggerLevel
+                0x08002d1a                xStreamBufferSpacesAvailable
+                0x08002d6a                xStreamBufferBytesAvailable
+                0x08002d96                xStreamBufferSend
+                0x08002ec4                xStreamBufferSendFromISR
+                0x08002ff0                xStreamBufferReceive
+                0x080030f4                xStreamBufferNextMessageLengthBytes
+                0x08003166                xStreamBufferReceiveFromISR
+                0x08003276                xStreamBufferIsEmpty
+                0x080032b0                xStreamBufferIsFull
+                0x08003300                xStreamBufferSendCompletedFromISR
+                0x0800335c                xStreamBufferReceiveCompletedFromISR
+                0x080035ba                uxStreamBufferGetStreamBufferNumber
+                0x080035ce                vStreamBufferSetStreamBufferNumber
+                0x080035e6                ucStreamBufferGetStreamBufferType
+ .text          0x08003600     0x1ec4 FreeRTOS\tasks.o
+                0x08003600                xTaskCreate
+                0x08003874                vTaskDelete
+                0x0800393c                vTaskDelayUntil
+                0x080039f4                vTaskDelay
+                0x08003a40                eTaskGetState
+                0x08003b1c                uxTaskPriorityGet
+                0x08003b50                uxTaskPriorityGetFromISR
+                0x08003b8c                vTaskPrioritySet
+                0x08003ca4                vTaskSuspend
+                0x08003dbc                vTaskResume
+                0x08003e58                xTaskResumeFromISR
+                0x08003f14                vTaskStartScheduler
+                0x08003f8c                vTaskEndScheduler
+                0x08003fa8                vTaskSuspendAll
+                0x08003fc0                xTaskResumeAll
+                0x080040d8                xTaskGetTickCount
+                0x080040f4                xTaskGetTickCountFromISR
+                0x08004114                uxTaskGetNumberOfTasks
+                0x08004128                pcTaskGetName
+                0x0800415c                uxTaskGetSystemState
+                0x08004278                xTaskCatchUpTicks
+                0x080042bc                xTaskIncrementTick
+                0x0800442c                vTaskSwitchContext
+                0x08004520                vTaskPlaceOnEventList
+                0x0800455c                vTaskPlaceOnUnorderedEventList
+                0x080045b8                vTaskPlaceOnEventListRestricted
+                0x08004604                xTaskRemoveFromEventList
+                0x080046bc                vTaskRemoveFromUnorderedEventList
+                0x08004760                vTaskSetTimeOutState
+                0x0800479c                vTaskInternalSetTimeOutState
+                0x080047c4                xTaskCheckForTimeOut
+                0x08004864                vTaskMissedYield
+                0x08004878                uxTaskGetTaskNumber
+                0x080048a0                vTaskSetTaskNumber
+                0x080049c4                vTaskGetInfo
+                0x08004bd4                xTaskGetCurrentTaskHandle
+                0x08004bf0                xTaskGetSchedulerState
+                0x08004c28                xTaskPriorityInherit
+                0x08004cf8                xTaskPriorityDisinherit
+                0x08004db0                vTaskPriorityDisinheritAfterTimeout
+                0x08004e90                uxTaskResetEventItemValue
+                0x08004ebc                pvTaskIncrementMutexHeldCount
+                0x08004ee0                ulTaskNotifyTake
+                0x08004f64                xTaskNotifyWait
+                0x0800500c                xTaskGenericNotify
+                0x08005134                xTaskGenericNotifyFromISR
+                0x08005298                vTaskNotifyGiveFromISR
+                0x08005388                xTaskNotifyStateClear
+                0x080053d4                ulTaskNotifyValueClear
+ .text          0x080054c4      0x85c FreeRTOS\timers.o
+                0x080054c4                xTimerCreateTimerTask
+                0x08005518                xTimerCreate
+                0x080055c2                xTimerGenericCommand
+                0x0800565c                xTimerGetTimerDaemonTaskHandle
+                0x0800567c                xTimerGetPeriod
+                0x0800569e                vTimerSetReloadMode
+                0x080056f2                uxTimerGetReloadMode
+                0x08005732                xTimerGetExpiryTime
+                0x08005758                pcTimerGetName
+                0x08005c58                xTimerIsTimerActive
+                0x08005c98                pvTimerGetTimerID
+                0x08005cc6                vTimerSetTimerID
+                0x08005cf4                uxTimerGetTimerNumber
+                0x08005d08                vTimerSetTimerNumber
+ .text          0x08005d20      0xb38 GPIO\GPIO.o
+                0x08005d20                Motor_Init
+                0x08005eac                RCC_Init
+                0x08005f9c                LEDtst
+                0x080061d4                GPIO_Init
+                0x08006344                PWM_Init
+ .text          0x08006858      0x724 Main\main.o
+                0x08006858                main
+                0x080068ec                vTask_MAIN
+                0x080069e4                vTask_CONTR
+                0x08006f18                delay
+                0x08006f54                vApplicationIdleHook
+                0x08006f5e                vApplicationMallocFailedHook
+                0x08006f64                vApplicationStackOverflowHook
+                0x08006f70                vApplicationTickHook
+ .text          0x08006f7c       0x14 Startup\startup_stm32f051x8.o
+ .text          0x08006f90      0x158 UART\UART.o
+                0x08006f90                UART2_Init
+                0x08006f9a                UART1_Init
+                0x08007040                USART2_Send
+                0x08007070                USART1_Send
+                0x080070a0                USART2_Send_Str
+ .text          0x080070e8        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
+ .text          0x080070e8        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
+ .text          0x080070e8        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-memset.o)
+ .text          0x080070e8      0x114 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_udivsi3.o)
+                0x080070e8                __aeabi_uidiv
+                0x080070e8                __udivsi3
+                0x080071f4                __aeabi_uidivmod
+ .text          0x080071fc      0x1d4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_divsi3.o)
+                0x080071fc                __divsi3
+                0x080071fc                __aeabi_idiv
+                0x080073c8                __aeabi_idivmod
+ .text          0x080073d0        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x080073d0                __aeabi_idiv0
+                0x080073d0                __aeabi_ldiv0
+ .text          0x080073d4        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtend.o
+ .text          0x080073d4        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtn.o
+ *(.text*)
+ .text.Reset_Handler
+                0x080073d4       0x50 Startup\startup_stm32f051x8.o
+                0x080073d4                Reset_Handler
+ .text.Default_Handler
+                0x08007424        0x2 Startup\startup_stm32f051x8.o
+                0x08007424                TIM1_CC_IRQHandler
+                0x08007424                TSC_IRQHandler
+                0x08007424                HardFault_Handler
+                0x08007424                ADC1_COMP_IRQHandler
+                0x08007424                PVD_IRQHandler
+                0x08007424                NMI_Handler
+                0x08007424                I2C1_IRQHandler
+                0x08007424                RCC_CRS_IRQHandler
+                0x08007424                SPI1_IRQHandler
+                0x08007424                TIM6_DAC_IRQHandler
+                0x08007424                EXTI2_3_IRQHandler
+                0x08007424                I2C2_IRQHandler
+                0x08007424                TIM17_IRQHandler
+                0x08007424                CEC_CAN_IRQHandler
+                0x08007424                RTC_IRQHandler
+                0x08007424                TIM16_IRQHandler
+                0x08007424                TIM3_IRQHandler
+                0x08007424                EXTI4_15_IRQHandler
+                0x08007424                DMA1_Channel1_IRQHandler
+                0x08007424                Default_Handler
+                0x08007424                TIM14_IRQHandler
+                0x08007424                DMA1_Channel4_5_IRQHandler
+                0x08007424                TIM15_IRQHandler
+                0x08007424                EXTI0_1_IRQHandler
+                0x08007424                SPI2_IRQHandler
+                0x08007424                SVC_Handler
+                0x08007424                WWDG_IRQHandler
+                0x08007424                TIM2_IRQHandler
+                0x08007424                DMA1_Channel2_3_IRQHandler
+                0x08007424                FLASH_IRQHandler
+                0x08007424                USART1_IRQHandler
+                0x08007424                TIM1_BRK_UP_TRG_COM_IRQHandler
+ *fill*         0x08007426        0x2 
+ .text.__libc_init_array
+                0x08007428       0x48 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
+                0x08007428                __libc_init_array
+ .text.memcpy   0x08007470       0x12 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
+                0x08007470                memcpy
+ .text.memset   0x08007482       0x10 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-memset.o)
+                0x08007482                memset
+ *(.glue_7)
+ .glue_7        0x08007492        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x08007492        0x0 linker stubs
+ *(.eh_frame)
+ *fill*         0x08007492        0x2 
+ .eh_frame      0x08007494        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtbegin.o
+ .eh_frame      0x08007494        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtend.o
+ *(.init)
+ .init          0x08007498        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crti.o
+                0x08007498                _init
+ .init          0x0800749c        0x8 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtn.o
+ *(.fini)
+ .fini          0x080074a4        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crti.o
+                0x080074a4                _fini
+ .fini          0x080074a8        0x8 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtn.o
+                0x080074b0                . = ALIGN (0x4)
+                0x080074b0                _etext = .
+
+.vfp11_veneer   0x080074b0        0x0
+ .vfp11_veneer  0x080074b0        0x0 linker stubs
+
+.v4_bx          0x080074b0        0x0
+ .v4_bx         0x080074b0        0x0 linker stubs
+
+.iplt           0x080074b0        0x0
+ .iplt          0x080074b0        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtbegin.o
+
+.rodata         0x080074b0       0x90
+                0x080074b0                . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x080074b0       0x18 CMSIS\system_stm32f0xx.o
+                0x080074b0                AHBPrescTable
+                0x080074c0                APBPrescTable
+ .rodata        0x080074c8       0x30 FreeRTOS\tasks.o
+ .rodata        0x080074f8       0x35 FreeRTOS\timers.o
+ *fill*         0x0800752d        0x3 
+ .rodata        0x08007530        0xe Main\main.o
+ *(.rodata*)
+                0x08007540                . = ALIGN (0x4)
+ *fill*         0x0800753e        0x2 
+
+.rel.dyn        0x08007540        0x0
+ .rel.iplt      0x08007540        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x08007540        0x0
+                0x08007540                __exidx_start = .
+ *(.ARM.exidx*)
+                0x08007540                __exidx_end = .
+
+.preinit_array  0x08007540        0x0
+                0x08007540                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x08007540                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x08007540        0x4
+                0x08007540                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+ .init_array    0x08007540        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtbegin.o
+                0x08007544                PROVIDE (__init_array_end, .)
+
+.fini_array     0x08007544        0x4
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x08007544        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end, .)
+                0x08007548                _sidata = LOADADDR (.data)
+
+.data           0x20000000       0x5c load address 0x08007548
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ .data          0x20000000        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crti.o
+ .data          0x20000000        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtbegin.o
+                0x20000000                __dso_handle
+ .data          0x20000004        0x0 #Lib\ADC\ADC.o
+ .data          0x20000004       0x40 #Lib\LCD\lcd.o
+                0x20000004                ANSI1251_CO_FF
+ .data          0x20000044        0x0 #Lib\RCC\RCC.o
+ .data          0x20000044        0x0 #Lib\flash\flash.o
+ .data          0x20000044        0x0 .metadata\.plugins\org.eclipse.cdt.make.core\specs.o
+ .data          0x20000044        0x0 ADC\ADC.o
+ .data          0x20000044        0x4 CMSIS\system_stm32f0xx.o
+                0x20000044                SystemCoreClock
+ .data          0x20000048        0xe DFPlayer\DFPlayer.o
+                0x20000048                mp3_folder
+                0x2000004c                mp3_cmd_buf
+ .data          0x20000056        0x0 FreeRTOS\croutine.o
+ .data          0x20000056        0x0 FreeRTOS\event_groups.o
+ .data          0x20000056        0x0 FreeRTOS\heap_1.o
+ .data          0x20000056        0x0 FreeRTOS\list.o
+ *fill*         0x20000056        0x2 
+ .data          0x20000058        0x4 FreeRTOS\port.o
+ .data          0x2000005c        0x0 FreeRTOS\queue.o
+ .data          0x2000005c        0x0 FreeRTOS\stream_buffer.o
+ .data          0x2000005c        0x0 FreeRTOS\tasks.o
+ .data          0x2000005c        0x0 FreeRTOS\timers.o
+ .data          0x2000005c        0x0 GPIO\GPIO.o
+ .data          0x2000005c        0x0 Main\main.o
+ .data          0x2000005c        0x0 Startup\startup_stm32f051x8.o
+ .data          0x2000005c        0x0 UART\UART.o
+ .data          0x2000005c        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
+ .data          0x2000005c        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
+ .data          0x2000005c        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-memset.o)
+ .data          0x2000005c        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x2000005c        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_divsi3.o)
+ .data          0x2000005c        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_dvmd_tls.o)
+ .data          0x2000005c        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtend.o
+ .data          0x2000005c        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtn.o
+ *(.data*)
+                0x2000005c                . = ALIGN (0x4)
+                0x2000005c                _edata = .
+
+.igot.plt       0x2000005c        0x0 load address 0x080075a4
+ .igot.plt      0x2000005c        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtbegin.o
+                0x2000005c                . = ALIGN (0x4)
+
+.bss            0x2000005c      0xe50 load address 0x080075a4
+                0x2000005c                _sbss = .
+                0x2000005c                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x2000005c        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crti.o
+ .bss           0x2000005c       0x1c c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtbegin.o
+ .bss           0x20000078        0x0 #Lib\ADC\ADC.o
+ .bss           0x20000078        0x0 #Lib\LCD\lcd.o
+ .bss           0x20000078        0x0 #Lib\RCC\RCC.o
+ .bss           0x20000078        0x0 #Lib\flash\flash.o
+ .bss           0x20000078        0x0 .metadata\.plugins\org.eclipse.cdt.make.core\specs.o
+ .bss           0x20000078        0x0 ADC\ADC.o
+ .bss           0x20000078        0x0 CMSIS\system_stm32f0xx.o
+ .bss           0x20000078       0x15 DFPlayer\DFPlayer.o
+                0x20000078                mp3_RX_Buf
+                0x2000008c                mp3_flag
+ .bss           0x2000008d        0x0 FreeRTOS\croutine.o
+ .bss           0x2000008d        0x0 FreeRTOS\event_groups.o
+ *fill*         0x2000008d        0x3 
+ .bss           0x20000090      0xc08 FreeRTOS\heap_1.o
+ .bss           0x20000c98        0x0 FreeRTOS\list.o
+ .bss           0x20000c98        0x0 FreeRTOS\port.o
+ .bss           0x20000c98        0x0 FreeRTOS\queue.o
+ .bss           0x20000c98        0x0 FreeRTOS\stream_buffer.o
+ .bss           0x20000c98      0x104 FreeRTOS\tasks.o
+                0x20000c98                pxCurrentTCB
+ .bss           0x20000d9c       0x3c FreeRTOS\timers.o
+ .bss           0x20000dd8        0x0 GPIO\GPIO.o
+ .bss           0x20000dd8        0x0 Main\main.o
+ .bss           0x20000dd8        0x0 Startup\startup_stm32f051x8.o
+ .bss           0x20000dd8        0x0 UART\UART.o
+ .bss           0x20000dd8        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
+ .bss           0x20000dd8        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x20000dd8        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-memset.o)
+ .bss           0x20000dd8        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x20000dd8        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_divsi3.o)
+ .bss           0x20000dd8        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x20000dd8        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtend.o
+ .bss           0x20000dd8        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtn.o
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x20000dd8        0x2 DFPlayer\DFPlayer.o
+                0x20000dd8                mp3_RXc
+                0x20000dd9                mp3_RXi
+ *fill*         0x20000dda        0x2 
+ COMMON         0x20000ddc       0x40 FreeRTOS\queue.o
+                0x20000ddc                xQueueRegistry
+ COMMON         0x20000e1c       0x90 GPIO\GPIO.o
+                0x20000e1c                m
+                0x20000eac                . = ALIGN (0x4)
+                0x20000eac                _ebss = .
+                0x20000eac                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x20000eac       0x80 load address 0x080075a4
+                0x20000eac                . = ALIGN (0x4)
+                [!provide]                PROVIDE (end, .)
+                [!provide]                PROVIDE (_end, .)
+                0x20000eac                . = (. + _Min_Heap_Size)
+                0x20000f2c                . = (. + _Min_Stack_Size)
+ *fill*         0x20000eac       0x80 
+                0x20000f2c                . = ALIGN (0x4)
+
+.memory_b1_text
+ *(.mb1text)
+ *(.mb1text*)
+ *(.mb1rodata)
+ *(.mb1rodata*)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x28
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x31 #Lib\ADC\ADC.o
+ .ARM.attributes
+                0x0000007b       0x31 #Lib\LCD\lcd.o
+ .ARM.attributes
+                0x000000ac       0x31 #Lib\RCC\RCC.o
+ .ARM.attributes
+                0x000000dd       0x31 #Lib\flash\flash.o
+ .ARM.attributes
+                0x0000010e       0x31 .metadata\.plugins\org.eclipse.cdt.make.core\specs.o
+ .ARM.attributes
+                0x0000013f       0x31 ADC\ADC.o
+ .ARM.attributes
+                0x00000170       0x31 CMSIS\system_stm32f0xx.o
+ .ARM.attributes
+                0x000001a1       0x31 DFPlayer\DFPlayer.o
+ .ARM.attributes
+                0x000001d2       0x31 FreeRTOS\croutine.o
+ .ARM.attributes
+                0x00000203       0x31 FreeRTOS\event_groups.o
+ .ARM.attributes
+                0x00000234       0x31 FreeRTOS\heap_1.o
+ .ARM.attributes
+                0x00000265       0x31 FreeRTOS\list.o
+ .ARM.attributes
+                0x00000296       0x31 FreeRTOS\port.o
+ .ARM.attributes
+                0x000002c7       0x31 FreeRTOS\queue.o
+ .ARM.attributes
+                0x000002f8       0x31 FreeRTOS\stream_buffer.o
+ .ARM.attributes
+                0x00000329       0x31 FreeRTOS\tasks.o
+ .ARM.attributes
+                0x0000035a       0x31 FreeRTOS\timers.o
+ .ARM.attributes
+                0x0000038b       0x31 GPIO\GPIO.o
+ .ARM.attributes
+                0x000003bc       0x31 Main\main.o
+ .ARM.attributes
+                0x000003ed       0x21 Startup\startup_stm32f051x8.o
+ .ARM.attributes
+                0x0000040e       0x31 UART\UART.o
+ .ARM.attributes
+                0x0000043f       0x2c c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000046b       0x2c c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000497       0x2c c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000004c3       0x1e c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000004e1       0x1e c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000004ff       0x1e c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000051d       0x2c c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtend.o
+ .ARM.attributes
+                0x00000549       0x1e c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtn.o
+OUTPUT(TRex.elf elf32-littlearm)
+
+.debug_info     0x00000000     0xa92c
+ .debug_info    0x00000000      0x33a #Lib\ADC\ADC.o
+ .debug_info    0x0000033a      0x531 #Lib\LCD\lcd.o
+ .debug_info    0x0000086b      0x243 #Lib\flash\flash.o
+ .debug_info    0x00000aae      0x245 CMSIS\system_stm32f0xx.o
+ .debug_info    0x00000cf3      0x6d0 DFPlayer\DFPlayer.o
+ .debug_info    0x000013c3       0x9a FreeRTOS\croutine.o
+ .debug_info    0x0000145d      0xed4 FreeRTOS\event_groups.o
+ .debug_info    0x00002331      0x9af FreeRTOS\heap_1.o
+ .debug_info    0x00002ce0      0xace FreeRTOS\list.o
+ .debug_info    0x000037ae      0x26e FreeRTOS\port.o
+ .debug_info    0x00003a1c     0x1a40 FreeRTOS\queue.o
+ .debug_info    0x0000545c     0x13df FreeRTOS\stream_buffer.o
+ .debug_info    0x0000683b     0x200d FreeRTOS\tasks.o
+ .debug_info    0x00008848     0x127b FreeRTOS\timers.o
+ .debug_info    0x00009ac3      0x55d GPIO\GPIO.o
+ .debug_info    0x0000a020      0x4c5 Main\main.o
+ .debug_info    0x0000a4e5       0x5a Startup\startup_stm32f051x8.o
+ .debug_info    0x0000a53f      0x3ed UART\UART.o
+
+.debug_abbrev   0x00000000     0x1d1e
+ .debug_abbrev  0x00000000       0xe3 #Lib\ADC\ADC.o
+ .debug_abbrev  0x000000e3      0x16e #Lib\LCD\lcd.o
+ .debug_abbrev  0x00000251      0x115 #Lib\flash\flash.o
+ .debug_abbrev  0x00000366       0xfd CMSIS\system_stm32f0xx.o
+ .debug_abbrev  0x00000463      0x1de DFPlayer\DFPlayer.o
+ .debug_abbrev  0x00000641       0x44 FreeRTOS\croutine.o
+ .debug_abbrev  0x00000685      0x261 FreeRTOS\event_groups.o
+ .debug_abbrev  0x000008e6      0x20f FreeRTOS\heap_1.o
+ .debug_abbrev  0x00000af5      0x1cc FreeRTOS\list.o
+ .debug_abbrev  0x00000cc1      0x1a3 FreeRTOS\port.o
+ .debug_abbrev  0x00000e64      0x298 FreeRTOS\queue.o
+ .debug_abbrev  0x000010fc      0x294 FreeRTOS\stream_buffer.o
+ .debug_abbrev  0x00001390      0x2fe FreeRTOS\tasks.o
+ .debug_abbrev  0x0000168e      0x28f FreeRTOS\timers.o
+ .debug_abbrev  0x0000191d      0x13c GPIO\GPIO.o
+ .debug_abbrev  0x00001a59      0x1a0 Main\main.o
+ .debug_abbrev  0x00001bf9       0x12 Startup\startup_stm32f051x8.o
+ .debug_abbrev  0x00001c0b      0x113 UART\UART.o
+
+.debug_aranges  0x00000000      0x240
+ .debug_aranges
+                0x00000000       0x20 #Lib\ADC\ADC.o
+ .debug_aranges
+                0x00000020       0x20 #Lib\LCD\lcd.o
+ .debug_aranges
+                0x00000040       0x20 #Lib\flash\flash.o
+ .debug_aranges
+                0x00000060       0x20 CMSIS\system_stm32f0xx.o
+ .debug_aranges
+                0x00000080       0x20 DFPlayer\DFPlayer.o
+ .debug_aranges
+                0x000000a0       0x18 FreeRTOS\croutine.o
+ .debug_aranges
+                0x000000b8       0x20 FreeRTOS\event_groups.o
+ .debug_aranges
+                0x000000d8       0x20 FreeRTOS\heap_1.o
+ .debug_aranges
+                0x000000f8       0x20 FreeRTOS\list.o
+ .debug_aranges
+                0x00000118       0x20 FreeRTOS\port.o
+ .debug_aranges
+                0x00000138       0x20 FreeRTOS\queue.o
+ .debug_aranges
+                0x00000158       0x20 FreeRTOS\stream_buffer.o
+ .debug_aranges
+                0x00000178       0x20 FreeRTOS\tasks.o
+ .debug_aranges
+                0x00000198       0x20 FreeRTOS\timers.o
+ .debug_aranges
+                0x000001b8       0x20 GPIO\GPIO.o
+ .debug_aranges
+                0x000001d8       0x20 Main\main.o
+ .debug_aranges
+                0x000001f8       0x28 Startup\startup_stm32f051x8.o
+ .debug_aranges
+                0x00000220       0x20 UART\UART.o
+
+.debug_line     0x00000000     0x3852
+ .debug_line    0x00000000      0x17b #Lib\ADC\ADC.o
+ .debug_line    0x0000017b      0x31c #Lib\LCD\lcd.o
+ .debug_line    0x00000497        0x0 #Lib\RCC\RCC.o
+ .debug_line    0x00000497      0x19f #Lib\flash\flash.o
+ .debug_line    0x00000636        0x0 .metadata\.plugins\org.eclipse.cdt.make.core\specs.o
+ .debug_line    0x00000636        0x0 ADC\ADC.o
+ .debug_line    0x00000636      0x173 CMSIS\system_stm32f0xx.o
+ .debug_line    0x000007a9      0x1ea DFPlayer\DFPlayer.o
+ .debug_line    0x00000993      0x129 FreeRTOS\croutine.o
+ .debug_line    0x00000abc      0x3e3 FreeRTOS\event_groups.o
+ .debug_line    0x00000e9f      0x278 FreeRTOS\heap_1.o
+ .debug_line    0x00001117      0x2a0 FreeRTOS\list.o
+ .debug_line    0x000013b7      0x1dc FreeRTOS\port.o
+ .debug_line    0x00001593      0x867 FreeRTOS\queue.o
+ .debug_line    0x00001dfa      0x4b0 FreeRTOS\stream_buffer.o
+ .debug_line    0x000022aa      0xa80 FreeRTOS\tasks.o
+ .debug_line    0x00002d2a      0x45c FreeRTOS\timers.o
+ .debug_line    0x00003186      0x285 GPIO\GPIO.o
+ .debug_line    0x0000340b      0x23f Main\main.o
+ .debug_line    0x0000364a       0x83 Startup\startup_stm32f051x8.o
+ .debug_line    0x000036cd      0x185 UART\UART.o
+
+.debug_str      0x00000000     0x2f7c
+ .debug_str     0x00000000      0x215 #Lib\ADC\ADC.o
+                                0x25a (size before relaxing)
+ .debug_str     0x00000215      0x103 #Lib\LCD\lcd.o
+                                0x2ae (size before relaxing)
+ .debug_str     0x00000318       0x12 #Lib\RCC\RCC.o
+                                 0xa7 (size before relaxing)
+ .debug_str     0x0000032a       0x99 #Lib\flash\flash.o
+                                0x220 (size before relaxing)
+ .debug_str     0x000003c3       0x38 .metadata\.plugins\org.eclipse.cdt.make.core\specs.o
+                                 0xcd (size before relaxing)
+ .debug_str     0x000003fb        0xd ADC\ADC.o
+                                 0xa2 (size before relaxing)
+ .debug_str     0x00000408       0x5c CMSIS\system_stm32f0xx.o
+                                0x223 (size before relaxing)
+ .debug_str     0x00000464      0x2e1 DFPlayer\DFPlayer.o
+                                0x52f (size before relaxing)
+ .debug_str     0x00000745       0x17 FreeRTOS\croutine.o
+                                0x16e (size before relaxing)
+ .debug_str     0x0000075c      0x745 FreeRTOS\event_groups.o
+                                0x930 (size before relaxing)
+ .debug_str     0x00000ea1       0xb4 FreeRTOS\heap_1.o
+                                0x643 (size before relaxing)
+ .debug_str     0x00000f55       0xa0 FreeRTOS\list.o
+                                0x6cf (size before relaxing)
+ .debug_str     0x00000ff5      0x18d FreeRTOS\port.o
+                                0x306 (size before relaxing)
+ .debug_str     0x00001182      0x748 FreeRTOS\queue.o
+                                0xe18 (size before relaxing)
+ .debug_str     0x000018ca      0x4e1 FreeRTOS\stream_buffer.o
+                                0xb64 (size before relaxing)
+ .debug_str     0x00001dab      0xbf6 FreeRTOS\tasks.o
+                               0x13ec (size before relaxing)
+ .debug_str     0x000029a1      0x46b FreeRTOS\timers.o
+                                0xb71 (size before relaxing)
+ .debug_str     0x00002e0c       0x93 GPIO\GPIO.o
+                                0x31f (size before relaxing)
+ .debug_str     0x00002e9f       0x90 Main\main.o
+                                0x33f (size before relaxing)
+ .debug_str     0x00002f2f       0x4d UART\UART.o
+                                0x28b (size before relaxing)
+
+.comment        0x00000000       0x7c
+ .comment       0x00000000       0x7c #Lib\ADC\ADC.o
+                                 0x7d (size before relaxing)
+ .comment       0x0000007c       0x7d #Lib\LCD\lcd.o
+ .comment       0x0000007c       0x7d #Lib\RCC\RCC.o
+ .comment       0x0000007c       0x7d #Lib\flash\flash.o
+ .comment       0x0000007c       0x7d .metadata\.plugins\org.eclipse.cdt.make.core\specs.o
+ .comment       0x0000007c       0x7d ADC\ADC.o
+ .comment       0x0000007c       0x7d CMSIS\system_stm32f0xx.o
+ .comment       0x0000007c       0x7d DFPlayer\DFPlayer.o
+ .comment       0x0000007c       0x7d FreeRTOS\croutine.o
+ .comment       0x0000007c       0x7d FreeRTOS\event_groups.o
+ .comment       0x0000007c       0x7d FreeRTOS\heap_1.o
+ .comment       0x0000007c       0x7d FreeRTOS\list.o
+ .comment       0x0000007c       0x7d FreeRTOS\port.o
+ .comment       0x0000007c       0x7d FreeRTOS\queue.o
+ .comment       0x0000007c       0x7d FreeRTOS\stream_buffer.o
+ .comment       0x0000007c       0x7d FreeRTOS\tasks.o
+ .comment       0x0000007c       0x7d FreeRTOS\timers.o
+ .comment       0x0000007c       0x7d GPIO\GPIO.o
+ .comment       0x0000007c       0x7d Main\main.o
+ .comment       0x0000007c       0x7d UART\UART.o
+
+.debug_frame    0x00000000     0x1db0
+ .debug_frame   0x00000000       0x2c #Lib\ADC\ADC.o
+ .debug_frame   0x0000002c      0x188 #Lib\LCD\lcd.o
+ .debug_frame   0x000001b4       0xc4 #Lib\flash\flash.o
+ .debug_frame   0x00000278       0x4c CMSIS\system_stm32f0xx.o
+ .debug_frame   0x000002c4       0xe4 DFPlayer\DFPlayer.o
+ .debug_frame   0x000003a8      0x190 FreeRTOS\event_groups.o
+ .debug_frame   0x00000538       0x88 FreeRTOS\heap_1.o
+ .debug_frame   0x000005c0       0xb0 FreeRTOS\list.o
+ .debug_frame   0x00000670      0x178 FreeRTOS\port.o
+ .debug_frame   0x000007e8      0x530 FreeRTOS\queue.o
+ .debug_frame   0x00000d18      0x310 FreeRTOS\stream_buffer.o
+ .debug_frame   0x00001028      0x77c FreeRTOS\tasks.o
+ .debug_frame   0x000017a4      0x308 FreeRTOS\timers.o
+ .debug_frame   0x00001aac       0xa0 GPIO\GPIO.o
+ .debug_frame   0x00001b4c      0x108 Main\main.o
+ .debug_frame   0x00001c54       0xa8 UART\UART.o
+ .debug_frame   0x00001cfc       0x2c c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00001d28       0x28 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00001d50       0x20 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00001d70       0x20 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001d90       0x20 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_divsi3.o)
+
+.debug_ranges   0x00000000       0x20
+ .debug_ranges  0x00000000       0x20 Startup\startup_stm32f051x8.o
+
+Cross Reference Table
+
+Symbol                                            File
+ADC1_COMP_IRQHandler                              Startup\startup_stm32f051x8.o
+ADC_Init                                          #Lib\ADC\ADC.o
+AHBPrescTable                                     CMSIS\system_stm32f0xx.o
+ANSI1251_CO_FF                                    #Lib\LCD\lcd.o
+APBPrescTable                                     CMSIS\system_stm32f0xx.o
+CEC_CAN_IRQHandler                                Startup\startup_stm32f051x8.o
+DMA1_Channel1_IRQHandler                          Startup\startup_stm32f051x8.o
+DMA1_Channel2_3_IRQHandler                        Startup\startup_stm32f051x8.o
+DMA1_Channel4_5_IRQHandler                        Startup\startup_stm32f051x8.o
+Default_Handler                                   Startup\startup_stm32f051x8.o
+EXTI0_1_IRQHandler                                Startup\startup_stm32f051x8.o
+EXTI2_3_IRQHandler                                Startup\startup_stm32f051x8.o
+EXTI4_15_IRQHandler                               Startup\startup_stm32f051x8.o
+FLASH_IRQHandler                                  Startup\startup_stm32f051x8.o
+GPIO_Init                                         GPIO\GPIO.o
+                                                  Main\main.o
+HardFault_Handler                                 Startup\startup_stm32f051x8.o
+I2C1_IRQHandler                                   Startup\startup_stm32f051x8.o
+I2C2_IRQHandler                                   Startup\startup_stm32f051x8.o
+LCD_Clear                                         #Lib\LCD\lcd.o
+LCD_Command                                       #Lib\LCD\lcd.o
+LCD_Init                                          #Lib\LCD\lcd.o
+LCD_Print                                         #Lib\LCD\lcd.o
+LCD_Print80                                       #Lib\LCD\lcd.o
+LCD_PrintASCII                                    #Lib\LCD\lcd.o
+LCD_SendChar                                      #Lib\LCD\lcd.o
+LCD_SetLight                                      #Lib\LCD\lcd.o
+LCD_SetPos                                        #Lib\LCD\lcd.o
+LCD_SetTCur                                       #Lib\LCD\lcd.o
+LCD_WriteData                                     #Lib\LCD\lcd.o
+LEDtst                                            GPIO\GPIO.o
+                                                  Main\main.o
+MP3_CheckSum                                      DFPlayer\DFPlayer.o
+MP3_ClearRXBuffer                                 DFPlayer\DFPlayer.o
+MP3_Init                                          DFPlayer\DFPlayer.o
+                                                  Main\main.o
+MP3_SendCmd                                       DFPlayer\DFPlayer.o
+                                                  Main\main.o
+MP3_SetFolder                                     DFPlayer\DFPlayer.o
+Motor_Init                                        GPIO\GPIO.o
+                                                  Main\main.o
+NMI_Handler                                       Startup\startup_stm32f051x8.o
+PVD_IRQHandler                                    Startup\startup_stm32f051x8.o
+PWM_Init                                          GPIO\GPIO.o
+                                                  Main\main.o
+PendSV_Handler                                    FreeRTOS\port.o
+RCC_CRS_IRQHandler                                Startup\startup_stm32f051x8.o
+RCC_Init                                          GPIO\GPIO.o
+                                                  Main\main.o
+RTC_IRQHandler                                    Startup\startup_stm32f051x8.o
+Reset_Handler                                     Startup\startup_stm32f051x8.o
+SPI1_IRQHandler                                   Startup\startup_stm32f051x8.o
+SPI2_IRQHandler                                   Startup\startup_stm32f051x8.o
+SVC_Handler                                       Startup\startup_stm32f051x8.o
+SysTick_Handler                                   FreeRTOS\port.o
+SystemCoreClock                                   CMSIS\system_stm32f0xx.o
+                                                  Main\main.o
+                                                  FreeRTOS\port.o
+SystemCoreClockUpdate                             CMSIS\system_stm32f0xx.o
+                                                  Main\main.o
+SystemInit                                        CMSIS\system_stm32f0xx.o
+                                                  Startup\startup_stm32f051x8.o
+TIM14_IRQHandler                                  Startup\startup_stm32f051x8.o
+TIM15_IRQHandler                                  Startup\startup_stm32f051x8.o
+TIM16_IRQHandler                                  Startup\startup_stm32f051x8.o
+TIM17_IRQHandler                                  Startup\startup_stm32f051x8.o
+TIM1_BRK_UP_TRG_COM_IRQHandler                    Startup\startup_stm32f051x8.o
+TIM1_CC_IRQHandler                                Startup\startup_stm32f051x8.o
+TIM2_IRQHandler                                   Startup\startup_stm32f051x8.o
+TIM3_IRQHandler                                   Startup\startup_stm32f051x8.o
+TIM6_DAC_IRQHandler                               Startup\startup_stm32f051x8.o
+TSC_IRQHandler                                    Startup\startup_stm32f051x8.o
+UART1_Init                                        UART\UART.o
+UART2_Init                                        UART\UART.o
+USART1_IRQHandler                                 Startup\startup_stm32f051x8.o
+USART1_Send                                       UART\UART.o
+USART2_IRQHandler                                 DFPlayer\DFPlayer.o
+USART2_Send                                       UART\UART.o
+                                                  DFPlayer\DFPlayer.o
+USART2_Send_Str                                   UART\UART.o
+WWDG_IRQHandler                                   Startup\startup_stm32f051x8.o
+__aeabi_idiv                                      c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_divsi3.o)
+                                                  Main\main.o
+                                                  GPIO\GPIO.o
+__aeabi_idiv0                                     c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_dvmd_tls.o)
+                                                  c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_divsi3.o)
+                                                  c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_udivsi3.o)
+__aeabi_idivmod                                   c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_divsi3.o)
+__aeabi_ldiv0                                     c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_dvmd_tls.o)
+__aeabi_uidiv                                     c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_udivsi3.o)
+                                                  Main\main.o
+                                                  FreeRTOS\port.o
+                                                  CMSIS\system_stm32f0xx.o
+__aeabi_uidivmod                                  c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_udivsi3.o)
+__deregister_frame_info                           c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtbegin.o
+__divsi3                                          c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_divsi3.o)
+__dso_handle                                      c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtbegin.o
+__init_array_end                                  c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
+__init_array_start                                c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
+__libc_init_array                                 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
+                                                  Startup\startup_stm32f051x8.o
+__preinit_array_end                               c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
+__preinit_array_start                             c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
+__register_frame_info                             c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crtbegin.o
+__udivsi3                                         c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m\libgcc.a(_udivsi3.o)
+_ebss                                             Startup\startup_stm32f051x8.o
+_edata                                            Startup\startup_stm32f051x8.o
+_estack                                           Startup\startup_stm32f051x8.o
+_fini                                             c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crti.o
+_init                                             c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv6-m/crti.o
+                                                  c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
+_sbss                                             Startup\startup_stm32f051x8.o
+_sdata                                            Startup\startup_stm32f051x8.o
+_sidata                                           Startup\startup_stm32f051x8.o
+delay                                             Main\main.o
+                                                  GPIO\GPIO.o
+delay_us                                          #Lib\LCD\lcd.o
+eTaskGetState                                     FreeRTOS\tasks.o
+flash_erase_page                                  #Lib\flash\flash.o
+flash_lock                                        #Lib\flash\flash.o
+flash_read                                        #Lib\flash\flash.o
+flash_ready                                       #Lib\flash\flash.o
+flash_unlock                                      #Lib\flash\flash.o
+flash_write                                       #Lib\flash\flash.o
+g_pfnVectors                                      Startup\startup_stm32f051x8.o
+m                                                 Main\main.o
+                                                  GPIO\GPIO.o
+main                                              Main\main.o
+                                                  Startup\startup_stm32f051x8.o
+memcpy                                            c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
+                                                  FreeRTOS\stream_buffer.o
+                                                  FreeRTOS\queue.o
+memset                                            c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv6-m\libc_nano.a(lib_a-memset.o)
+                                                  FreeRTOS\tasks.o
+                                                  FreeRTOS\stream_buffer.o
+mp3_RX_Buf                                        DFPlayer\DFPlayer.o
+mp3_RXc                                           DFPlayer\DFPlayer.o
+mp3_RXi                                           DFPlayer\DFPlayer.o
+mp3_cmd_buf                                       DFPlayer\DFPlayer.o
+mp3_flag                                          DFPlayer\DFPlayer.o
+mp3_folder                                        DFPlayer\DFPlayer.o
+pcQueueGetName                                    FreeRTOS\queue.o
+pcTaskGetName                                     FreeRTOS\tasks.o
+pcTimerGetName                                    FreeRTOS\timers.o
+pvPortMalloc                                      FreeRTOS\heap_1.o
+                                                  FreeRTOS\timers.o
+                                                  FreeRTOS\tasks.o
+                                                  FreeRTOS\stream_buffer.o
+                                                  FreeRTOS\queue.o
+                                                  FreeRTOS\event_groups.o
+pvTaskIncrementMutexHeldCount                     FreeRTOS\tasks.o
+                                                  FreeRTOS\queue.o
+pvTimerGetTimerID                                 FreeRTOS\timers.o
+pxCurrentTCB                                      FreeRTOS\tasks.o
+                                                  FreeRTOS\port.o
+pxPortInitialiseStack                             FreeRTOS\port.o
+                                                  FreeRTOS\tasks.o
+ucQueueGetQueueType                               FreeRTOS\queue.o
+ucStreamBufferGetStreamBufferType                 FreeRTOS\stream_buffer.o
+ulSetInterruptMaskFromISR                         FreeRTOS\port.o
+                                                  FreeRTOS\tasks.o
+                                                  FreeRTOS\stream_buffer.o
+                                                  FreeRTOS\queue.o
+                                                  FreeRTOS\event_groups.o
+ulTaskNotifyTake                                  FreeRTOS\tasks.o
+ulTaskNotifyValueClear                            FreeRTOS\tasks.o
+uxEventGroupGetNumber                             FreeRTOS\event_groups.o
+uxListRemove                                      FreeRTOS\list.o
+                                                  FreeRTOS\timers.o
+                                                  FreeRTOS\tasks.o
+uxQueueGetQueueNumber                             FreeRTOS\queue.o
+uxQueueMessagesWaiting                            FreeRTOS\queue.o
+uxQueueMessagesWaitingFromISR                     FreeRTOS\queue.o
+uxQueueSpacesAvailable                            FreeRTOS\queue.o
+uxStreamBufferGetStreamBufferNumber               FreeRTOS\stream_buffer.o
+uxTaskGetNumberOfTasks                            FreeRTOS\tasks.o
+uxTaskGetSystemState                              FreeRTOS\tasks.o
+uxTaskGetTaskNumber                               FreeRTOS\tasks.o
+uxTaskPriorityGet                                 FreeRTOS\tasks.o
+uxTaskPriorityGetFromISR                          FreeRTOS\tasks.o
+uxTaskResetEventItemValue                         FreeRTOS\tasks.o
+                                                  FreeRTOS\event_groups.o
+uxTimerGetReloadMode                              FreeRTOS\timers.o
+uxTimerGetTimerNumber                             FreeRTOS\timers.o
+vApplicationIdleHook                              Main\main.o
+vApplicationMallocFailedHook                      Main\main.o
+                                                  FreeRTOS\heap_1.o
+vApplicationStackOverflowHook                     Main\main.o
+                                                  FreeRTOS\tasks.o
+vApplicationTickHook                              Main\main.o
+                                                  FreeRTOS\tasks.o
+vClearInterruptMaskFromISR                        FreeRTOS\port.o
+                                                  FreeRTOS\tasks.o
+                                                  FreeRTOS\stream_buffer.o
+                                                  FreeRTOS\queue.o
+                                                  FreeRTOS\event_groups.o
+vEventGroupClearBitsCallback                      FreeRTOS\event_groups.o
+vEventGroupDelete                                 FreeRTOS\event_groups.o
+vEventGroupSetBitsCallback                        FreeRTOS\event_groups.o
+vEventGroupSetNumber                              FreeRTOS\event_groups.o
+vListInitialise                                   FreeRTOS\list.o
+                                                  FreeRTOS\timers.o
+                                                  FreeRTOS\tasks.o
+                                                  FreeRTOS\queue.o
+                                                  FreeRTOS\event_groups.o
+vListInitialiseItem                               FreeRTOS\list.o
+                                                  FreeRTOS\timers.o
+                                                  FreeRTOS\tasks.o
+vListInsert                                       FreeRTOS\list.o
+                                                  FreeRTOS\timers.o
+                                                  FreeRTOS\tasks.o
+vListInsertEnd                                    FreeRTOS\list.o
+                                                  FreeRTOS\tasks.o
+vPortEndScheduler                                 FreeRTOS\port.o
+                                                  FreeRTOS\tasks.o
+vPortEnterCritical                                FreeRTOS\port.o
+                                                  FreeRTOS\timers.o
+                                                  FreeRTOS\tasks.o
+                                                  FreeRTOS\stream_buffer.o
+                                                  FreeRTOS\queue.o
+                                                  FreeRTOS\event_groups.o
+vPortExitCritical                                 FreeRTOS\port.o
+                                                  FreeRTOS\timers.o
+                                                  FreeRTOS\tasks.o
+                                                  FreeRTOS\stream_buffer.o
+                                                  FreeRTOS\queue.o
+                                                  FreeRTOS\event_groups.o
+vPortFree                                         FreeRTOS\heap_1.o
+                                                  FreeRTOS\timers.o
+                                                  FreeRTOS\tasks.o
+                                                  FreeRTOS\stream_buffer.o
+                                                  FreeRTOS\queue.o
+                                                  FreeRTOS\event_groups.o
+vPortInitialiseBlocks                             FreeRTOS\heap_1.o
+vPortSVCHandler                                   FreeRTOS\port.o
+vPortSetupTimerInterrupt                          FreeRTOS\port.o
+vPortYield                                        FreeRTOS\port.o
+                                                  FreeRTOS\timers.o
+                                                  FreeRTOS\tasks.o
+                                                  FreeRTOS\queue.o
+                                                  FreeRTOS\event_groups.o
+vQueueAddToRegistry                               FreeRTOS\queue.o
+                                                  FreeRTOS\timers.o
+vQueueDelete                                      FreeRTOS\queue.o
+vQueueSetQueueNumber                              FreeRTOS\queue.o
+vQueueUnregisterQueue                             FreeRTOS\queue.o
+vQueueWaitForMessageRestricted                    FreeRTOS\queue.o
+                                                  FreeRTOS\timers.o
+vStreamBufferDelete                               FreeRTOS\stream_buffer.o
+vStreamBufferSetStreamBufferNumber                FreeRTOS\stream_buffer.o
+vTaskDelay                                        FreeRTOS\tasks.o
+                                                  Main\main.o
+vTaskDelayUntil                                   FreeRTOS\tasks.o
+vTaskDelete                                       FreeRTOS\tasks.o
+vTaskEndScheduler                                 FreeRTOS\tasks.o
+vTaskGetInfo                                      FreeRTOS\tasks.o
+vTaskInternalSetTimeOutState                      FreeRTOS\tasks.o
+                                                  FreeRTOS\queue.o
+vTaskMissedYield                                  FreeRTOS\tasks.o
+                                                  FreeRTOS\queue.o
+vTaskNotifyGiveFromISR                            FreeRTOS\tasks.o
+vTaskPlaceOnEventList                             FreeRTOS\tasks.o
+                                                  FreeRTOS\queue.o
+vTaskPlaceOnEventListRestricted                   FreeRTOS\tasks.o
+                                                  FreeRTOS\queue.o
+vTaskPlaceOnUnorderedEventList                    FreeRTOS\tasks.o
+                                                  FreeRTOS\event_groups.o
+vTaskPriorityDisinheritAfterTimeout               FreeRTOS\tasks.o
+                                                  FreeRTOS\queue.o
+vTaskPrioritySet                                  FreeRTOS\tasks.o
+vTaskRemoveFromUnorderedEventList                 FreeRTOS\tasks.o
+                                                  FreeRTOS\event_groups.o
+vTaskResume                                       FreeRTOS\tasks.o
+vTaskSetTaskNumber                                FreeRTOS\tasks.o
+vTaskSetTimeOutState                              FreeRTOS\tasks.o
+                                                  FreeRTOS\stream_buffer.o
+vTaskStartScheduler                               FreeRTOS\tasks.o
+                                                  Main\main.o
+vTaskSuspend                                      FreeRTOS\tasks.o
+vTaskSuspendAll                                   FreeRTOS\tasks.o
+                                                  FreeRTOS\timers.o
+                                                  FreeRTOS\stream_buffer.o
+                                                  FreeRTOS\queue.o
+                                                  FreeRTOS\heap_1.o
+                                                  FreeRTOS\event_groups.o
+vTaskSwitchContext                                FreeRTOS\tasks.o
+                                                  FreeRTOS\port.o
+vTask_CONTR                                       Main\main.o
+vTask_MAIN                                        Main\main.o
+vTimerSetReloadMode                               FreeRTOS\timers.o
+vTimerSetTimerID                                  FreeRTOS\timers.o
+vTimerSetTimerNumber                              FreeRTOS\timers.o
+xEventGroupClearBits                              FreeRTOS\event_groups.o
+xEventGroupCreate                                 FreeRTOS\event_groups.o
+xEventGroupGetBitsFromISR                         FreeRTOS\event_groups.o
+xEventGroupSetBits                                FreeRTOS\event_groups.o
+xEventGroupSync                                   FreeRTOS\event_groups.o
+xEventGroupWaitBits                               FreeRTOS\event_groups.o
+xPortGetFreeHeapSize                              FreeRTOS\heap_1.o
+xPortStartScheduler                               FreeRTOS\port.o
+                                                  FreeRTOS\tasks.o
+xQueueAddToSet                                    FreeRTOS\queue.o
+xQueueCreateCountingSemaphore                     FreeRTOS\queue.o
+xQueueCreateMutex                                 FreeRTOS\queue.o
+xQueueCreateSet                                   FreeRTOS\queue.o
+xQueueGenericCreate                               FreeRTOS\queue.o
+                                                  FreeRTOS\timers.o
+xQueueGenericReset                                FreeRTOS\queue.o
+xQueueGenericSend                                 FreeRTOS\queue.o
+                                                  FreeRTOS\timers.o
+xQueueGenericSendFromISR                          FreeRTOS\queue.o
+                                                  FreeRTOS\timers.o
+xQueueGiveFromISR                                 FreeRTOS\queue.o
+xQueueGiveMutexRecursive                          FreeRTOS\queue.o
+xQueueIsQueueEmptyFromISR                         FreeRTOS\queue.o
+xQueueIsQueueFullFromISR                          FreeRTOS\queue.o
+xQueuePeek                                        FreeRTOS\queue.o
+xQueuePeekFromISR                                 FreeRTOS\queue.o
+xQueueReceive                                     FreeRTOS\queue.o
+                                                  FreeRTOS\timers.o
+xQueueReceiveFromISR                              FreeRTOS\queue.o
+xQueueRegistry                                    FreeRTOS\queue.o
+xQueueRemoveFromSet                               FreeRTOS\queue.o
+xQueueSelectFromSet                               FreeRTOS\queue.o
+xQueueSelectFromSetFromISR                        FreeRTOS\queue.o
+xQueueSemaphoreTake                               FreeRTOS\queue.o
+xQueueTakeMutexRecursive                          FreeRTOS\queue.o
+xStreamBufferBytesAvailable                       FreeRTOS\stream_buffer.o
+xStreamBufferGenericCreate                        FreeRTOS\stream_buffer.o
+xStreamBufferIsEmpty                              FreeRTOS\stream_buffer.o
+xStreamBufferIsFull                               FreeRTOS\stream_buffer.o
+xStreamBufferNextMessageLengthBytes               FreeRTOS\stream_buffer.o
+xStreamBufferReceive                              FreeRTOS\stream_buffer.o
+xStreamBufferReceiveCompletedFromISR              FreeRTOS\stream_buffer.o
+xStreamBufferReceiveFromISR                       FreeRTOS\stream_buffer.o
+xStreamBufferReset                                FreeRTOS\stream_buffer.o
+xStreamBufferSend                                 FreeRTOS\stream_buffer.o
+xStreamBufferSendCompletedFromISR                 FreeRTOS\stream_buffer.o
+xStreamBufferSendFromISR                          FreeRTOS\stream_buffer.o
+xStreamBufferSetTriggerLevel                      FreeRTOS\stream_buffer.o
+xStreamBufferSpacesAvailable                      FreeRTOS\stream_buffer.o
+xTaskCatchUpTicks                                 FreeRTOS\tasks.o
+xTaskCheckForTimeOut                              FreeRTOS\tasks.o
+                                                  FreeRTOS\stream_buffer.o
+                                                  FreeRTOS\queue.o
+xTaskCreate                                       FreeRTOS\tasks.o
+                                                  Main\main.o
+                                                  FreeRTOS\timers.o
+xTaskGenericNotify                                FreeRTOS\tasks.o
+                                                  FreeRTOS\stream_buffer.o
+xTaskGenericNotifyFromISR                         FreeRTOS\tasks.o
+                                                  FreeRTOS\stream_buffer.o
+xTaskGetCurrentTaskHandle                         FreeRTOS\tasks.o
+                                                  FreeRTOS\stream_buffer.o
+                                                  FreeRTOS\queue.o
+xTaskGetSchedulerState                            FreeRTOS\tasks.o
+                                                  FreeRTOS\timers.o
+                                                  FreeRTOS\queue.o
+                                                  FreeRTOS\event_groups.o
+xTaskGetTickCount                                 FreeRTOS\tasks.o
+                                                  FreeRTOS\timers.o
+xTaskGetTickCountFromISR                          FreeRTOS\tasks.o
+xTaskIncrementTick                                FreeRTOS\tasks.o
+                                                  FreeRTOS\port.o
+xTaskNotifyStateClear                             FreeRTOS\tasks.o
+                                                  FreeRTOS\stream_buffer.o
+xTaskNotifyWait                                   FreeRTOS\tasks.o
+                                                  FreeRTOS\stream_buffer.o
+xTaskPriorityDisinherit                           FreeRTOS\tasks.o
+                                                  FreeRTOS\queue.o
+xTaskPriorityInherit                              FreeRTOS\tasks.o
+                                                  FreeRTOS\queue.o
+xTaskRemoveFromEventList                          FreeRTOS\tasks.o
+                                                  FreeRTOS\queue.o
+xTaskResumeAll                                    FreeRTOS\tasks.o
+                                                  FreeRTOS\timers.o
+                                                  FreeRTOS\stream_buffer.o
+                                                  FreeRTOS\queue.o
+                                                  FreeRTOS\heap_1.o
+                                                  FreeRTOS\event_groups.o
+xTaskResumeFromISR                                FreeRTOS\tasks.o
+xTimerCreate                                      FreeRTOS\timers.o
+xTimerCreateTimerTask                             FreeRTOS\timers.o
+                                                  FreeRTOS\tasks.o
+xTimerGenericCommand                              FreeRTOS\timers.o
+xTimerGetExpiryTime                               FreeRTOS\timers.o
+xTimerGetPeriod                                   FreeRTOS\timers.o
+xTimerGetTimerDaemonTaskHandle                    FreeRTOS\timers.o
+xTimerIsTimerActive                               FreeRTOS\timers.o

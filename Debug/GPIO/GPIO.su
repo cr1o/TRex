@@ -1,0 +1,5 @@
+GPIO.c:9:6:Motor_Init	24	static
+GPIO.c:60:6:RCC_Init	8	static
+GPIO.c:92:6:LEDtst	8	static
+GPIO.c:172:6:GPIO_Init	8	static
+GPIO.c:234:6:PWM_Init	8	static
