@@ -3,7 +3,7 @@
 <stringAttribute key="com.atollic.hardwaredebug.jlink_common.cpu_core" value="Cortex-M"/>
 <stringAttribute key="com.atollic.hardwaredebug.jlink_common.device" value="STM32F051C8"/>
 <stringAttribute key="com.atollic.hardwaredebug.jlink_common.endian" value="little"/>
-<stringAttribute key="com.atollic.hardwaredebug.jlink_common.init_speed" value="1000"/>
+<stringAttribute key="com.atollic.hardwaredebug.jlink_common.init_speed" value="4000"/>
 <booleanAttribute key="com.atollic.hardwaredebug.jlink_common.jlink_check_serial_number" value="false"/>
 <stringAttribute key="com.atollic.hardwaredebug.jlink_common.jlink_script_path" value=""/>
 <booleanAttribute key="com.atollic.hardwaredebug.jlink_common.jlink_script_used" value="false"/>
@@ -21,7 +21,7 @@
 <intAttribute key="com.atollic.hardwaredebug.launch.portNumber" value="2331"/>
 <stringAttribute key="com.atollic.hardwaredebug.launch.remoteCommand" value="target extended-remote"/>
 <stringAttribute key="com.atollic.hardwaredebug.launch.runCommands" value="# Default GDB command file (FLASH) for SEGGER J-LINK and STMicroelectronics STM32F051C8 microcontroller.&#10;&#10;# Set character encoding&#10;set host-charset CP1252&#10;set target-charset CP1252&#10;&#10;# Set JTAG speed to 30 kHz&#10;monitor speed 30&#10;&#10;# Set GDBServer to little endian&#10;monitor endian little&#10;&#10;# Reset the chip to get to a known state.&#10;monitor reset&#10;&#10;# Set auto JTAG speed&#10;monitor speed auto&#10;&#10;# Setup GDB FOR FASTER DOWNLOADS&#10;set remote memory-write-packet-size 1024&#10;set remote memory-write-packet-size fixed&#10;&#10;# Enable flash download&#10;monitor flash download = 1&#10;&#10;# Load the program executable&#10;load&#9;&#9;&#10;&#10;# Reset the chip to get to a known state. Remove &quot;monitor reset&quot; command &#10;#  if the code is not located at default address and does not run by reset. &#10;monitor reset&#10;# Set a breakpoint at main().&#10;tbreak main&#10;&#10;# Run to the breakpoint.&#10;continue"/>
-<stringAttribute key="com.atollic.hardwaredebug.launch.serverParam" value="-port 2331 -s -CPU Cortex-M -device STM32F051C8 -endian little -speed 1000 -if swd -vd"/>
+<stringAttribute key="com.atollic.hardwaredebug.launch.serverParam" value="-port 2331 -s -CPU Cortex-M -device STM32F051C8 -endian little -speed 4000 -if swd -vd"/>
 <booleanAttribute key="com.atollic.hardwaredebug.launch.startServer" value="true"/>
 <booleanAttribute key="com.atollic.hardwaredebug.launch.swd_mode" value="true"/>
 <stringAttribute key="com.atollic.hardwaredebug.launch.swv_port" value="2332"/>
@@ -33,7 +33,7 @@
 <booleanAttribute key="com.atollic.hardwaredebug.stlink.enable_external_loader" value="false"/>
 <booleanAttribute key="com.atollic.hardwaredebug.stlink.enable_logging" value="false"/>
 <stringAttribute key="com.atollic.hardwaredebug.stlink.external_loader" value=""/>
-<stringAttribute key="com.atollic.hardwaredebug.stlink.log_file" value="D:\STM32\TRex\Debug\st-link_gdbserver_log.txt"/>
+<stringAttribute key="com.atollic.hardwaredebug.stlink.log_file" value="D:\work\animatronic\prog\TRex\Debug\st-link_gdbserver_log.txt"/>
 <booleanAttribute key="com.atollic.hardwaredebug.stlink.stlink_check_serial_number" value="false"/>
 <stringAttribute key="com.atollic.hardwaredebug.stlink.stlink_txt_serial_number" value=""/>
 <stringAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_NAME" value="${TOOLCHAIN_PATH}/arm-atollic-eabi-gdb"/>

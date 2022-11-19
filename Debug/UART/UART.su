@@ -1,5 +1,0 @@
-UART.c:7:6:UART2_Init	8	static
-UART.c:11:6:UART1_Init	8	static
-UART.c:37:6:USART2_Send	16	static
-UART.c:43:6:USART1_Send	16	static
-UART.c:49:6:USART2_Send_Str	24	static
