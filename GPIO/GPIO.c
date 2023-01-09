@@ -209,8 +209,18 @@ void GPIO_Init(void){
 	//LED2 PB11 (BLUE)
 	GPIOB->MODER |= GPIO_MODER_MODER11_0;	//General purpose OutPut mode
 	GPIOB->OTYPER &= ~GPIO_OTYPER_OT_11;	//PUSH PULL
-	//----------   Motion Sensor (PB9)   ----------------------------
+	//----------   Motion Sensor (PB9)   --------------------------------
 	GPIOB->MODER &= ~GPIO_MODER_MODER9_Msk; //Input mode
+	//-------------------   Sensors    ----------------------------------
+	//Sensor 2 PC14
+	GPIOC->MODER &= ~GPIO_MODER_MODER14_Msk;	//Input mode
+	//Sensor 3 PC13
+	GPIOC->MODER &= ~GPIO_MODER_MODER13_Msk;	//Input mode
+	//Sensor 4 PB7
+	GPIOB->MODER &= ~GPIO_MODER_MODER7_Msk;		//Input mode
+	//Sensor 5 PB6
+	GPIOB->MODER &= ~GPIO_MODER_MODER6_Msk;		//Input mode
+
 
 	//-------------   FOR TEST !!!   -------------------------------------------
 	//M1_PWM
@@ -221,7 +231,7 @@ void GPIO_Init(void){
 	//GPIOA->OTYPER &= ~GPIO_OTYPER_OT_9;		//PUSH PULL
 
 
-	//----------   Êíîïêà   ----------------------------
+	//----------   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½   ----------------------------
 	//RCC->AHBENR |= RCC_AHBENR_GPIOAEN;  //Enable clock PORT A
 	//GPIOA->MODER &= ~GPIO_MODER_MODER0_Msk; //Input mode
 	//GPIOA->OTYPER

@@ -9,8 +9,8 @@ int main (void) {
 
 	//SystemInit();  // CMSS function that set the clock frequency
 
-	// По умолчанию считает, что внешний кварц 8МГЦ, но можно добавить
-	// в stm32f1xx.h #define HSE_VALUE 12000000U и переназначить кварц.
+	// пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ 8пїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+	// пїЅ stm32f1xx.h #define HSE_VALUE 12000000U пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.
 
 	RCC_Init();
 	SystemCoreClockUpdate();
@@ -43,33 +43,156 @@ void vTask_MAIN (void *argument){
 //===================================================================
 //Figure management program
 
-		if ((GPIOB->IDR & GPIO_IDR_9) == 0 ) {
+		if SENSOR1 {
 
-			m[0].Start = 1;
-			m[4].Start = 1;
 			MP3_SendCmd(MP3_PLAY_FOLDER_FILE, 1,1);//1 DIR  1st File
-			vTaskDelay(2000);
+
+			m[0].perMaxPWM = 300;
+			m[0].perStartPWM = 300;
+			m[0].tAcceleration = 200;
+			m[0].Start = 1;
+			vTaskDelay(1000);
+
+			m[1].perMaxPWM = 300;
+			m[1].perStartPWM = 300;
+			m[1].tAcceleration = 200;
 			m[1].Start = 1;
+			vTaskDelay(1000);
+
+			m[2].perMaxPWM = 300;
+			m[2].perStartPWM = 300;
+			m[2].tAcceleration = 200;
+			m[2].Start = 1;
+			vTaskDelay(1000);
+
+			m[3].perMaxPWM = 300;
+			m[3].perStartPWM = 300;
+			m[3].tAcceleration = 200;
+			m[3].Start = 1;
+			vTaskDelay(1000);
+
+			m[4].perMaxPWM = 300;
+			m[4].perStartPWM = 300;
+			m[4].tAcceleration = 200;
+			m[4].Start = 1;
+			vTaskDelay(1000);
+
+			m[5].perMaxPWM = 300;
+			m[5].perStartPWM = 300;
+			m[5].tAcceleration = 200;
 			m[5].Start = 1;
 			vTaskDelay(1000);
-			m[2].Start = 1;
+
+			m[6].perMaxPWM = 300;
+			m[6].perStartPWM = 300;
+			m[6].tAcceleration = 200;
 			m[6].Start = 1;
 			vTaskDelay(1000);
-			m[3].Start = 1;
+
+			m[7].perMaxPWM = 300;
+			m[7].perStartPWM = 300;
+			m[7].tAcceleration = 200;
 			m[7].Start = 1;
 			vTaskDelay(1000);
+
 			m[0].Start = 0;
-			m[4].Start = 0;
-			vTaskDelay(2000);
 			m[1].Start = 0;
-			m[5].Start = 0;
-			vTaskDelay(2000);
 			m[2].Start = 0;
-			m[6].Start = 0;
-			vTaskDelay(2000);
 			m[3].Start = 0;
+			m[4].Start = 0;
+			m[5].Start = 0;
+			m[6].Start = 0;
 			m[7].Start = 0;
-			vTaskDelay(2000); //*/
+			vTaskDelay(3000);
+
+			m[0].perMaxPWM = 500;
+			m[0].perStartPWM = 100;
+			m[0].Start = 1;
+
+			m[1].perMaxPWM = 500;
+			m[1].perStartPWM = 100;
+			m[1].Start = 1;
+
+			m[2].perMaxPWM = 500;
+			m[2].perStartPWM = 100;
+			m[2].Start = 1;
+
+			m[3].perMaxPWM = 500;
+			m[3].perStartPWM = 100;
+			m[3].Start = 1;
+
+			m[4].perMaxPWM = 500;
+			m[4].perStartPWM = 100;
+			m[4].Start = 1;
+
+			m[5].perMaxPWM = 500;
+			m[5].perStartPWM = 100;
+			m[5].Start = 1;
+
+			m[6].perMaxPWM = 500;
+			m[6].perStartPWM = 100;
+			m[6].Start = 1;
+
+			m[7].perMaxPWM = 500;
+			m[7].perStartPWM = 100;
+			m[7].Start = 1;
+
+			vTaskDelay(5000);
+
+			m[0].Start = 0;
+			m[1].Start = 0;
+			m[2].Start = 0;
+			m[3].Start = 0;
+			m[4].Start = 0;
+			m[5].Start = 0;
+			m[6].Start = 0;
+			m[7].Start = 0;
+			vTaskDelay(3000);
+
+			m[0].perMaxPWM = 1000;
+			m[0].perStartPWM = 100;
+			m[0].Start = 1;
+
+			m[1].perMaxPWM = 1000;
+			m[1].perStartPWM = 100;
+			m[1].Start = 1;
+
+			m[2].perMaxPWM = 1000;
+			m[2].perStartPWM = 100;
+			m[2].Start = 1;
+
+			m[3].perMaxPWM = 1000;
+			m[3].perStartPWM = 100;
+			m[3].Start = 1;
+
+			m[4].perMaxPWM = 1000;
+			m[4].perStartPWM = 100;
+			m[4].Start = 1;
+
+			m[5].perMaxPWM = 1000;
+			m[5].perStartPWM = 100;
+			m[5].Start = 1;
+
+			m[6].perMaxPWM = 1000;
+			m[6].perStartPWM = 100;
+			m[6].Start = 1;
+
+			m[7].perMaxPWM = 1000;
+			m[7].perStartPWM = 100;
+			m[7].Start = 1;
+
+			vTaskDelay(8000);
+
+			m[0].Start = 0;
+			m[1].Start = 0;
+			m[2].Start = 0;
+			m[3].Start = 0;
+			m[4].Start = 0;
+			m[5].Start = 0;
+			m[6].Start = 0;
+			m[7].Start = 0;
+			vTaskDelay(1000);
+
 		}
 		vTaskDelay(30);
 	}
@@ -175,10 +298,18 @@ void vTask_CONTR (void *argument){
 		}
 		//--------------   RED INDICATOR   ----------------------------
 		//RED LED is ON if Motion Sensor is triggered
-		if ((GPIOB->IDR & GPIO_IDR_9) == 0 ) {
+		if (SENSOR2 || SENSOR3 || SENSOR4 || SENSOR5) {
 			GPIOB->BSRR |= GPIO_BSRR_BS_11;
 		} else {
 			GPIOB->BSRR |= GPIO_BSRR_BR_11;
+		}
+
+		//--------------   GREEN INDICATOR   ----------------------------
+		//GREEN LED is ON if Motion Sensor is triggered
+		if (SENSOR1 ) {
+			GPIOB->BSRR |= GPIO_BSRR_BS_10;
+		} else {
+			GPIOB->BSRR |= GPIO_BSRR_BR_10;
 		}
 		vTaskDelay(TIME_STEP);
 	}
